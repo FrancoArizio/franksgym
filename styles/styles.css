@@ -45,7 +45,7 @@ body {
 }
 
 .banner_image {
-    background-image: url(images/banner.png);
+    background-image: url(../images/banner.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
