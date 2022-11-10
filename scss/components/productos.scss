@@ -1,0 +1,38 @@
+.productos {
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.producto_element {
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border: solid 2px rgb(255, 187, 0);
+    border-radius: 10px;
+}
+
+.producto_element-image {
+    height: 250px;
+    width: 250px;
+
+}
+
+.producto_element-text {
+    color: white;
+}
+
+.producto_element-precio {
+    color: white;
+}

@@ -1,0 +1,16 @@
+.btn_comprar {
+    color: rgb(255, 187, 0);
+    background-color: rgb(0, 0, 0);
+    border: solid 2px rgb(255, 187, 0);
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.btn_comprar:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 187, 0);
+    border: solid 2px rgb(0, 0, 0);
+    padding: 4px;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
