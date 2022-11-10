@@ -1,0 +1,21 @@
+.banner_image {
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+}
+@media screen and (max-width: 1000px) {
+    .banner_image {
+        display: flex;
+        background-image: url(../images/banner.png);
+        background-attachment: inherit;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        max-width: 1000px;
+        max-height: 400px;
+
+    }
+}

@@ -1,0 +1,45 @@
+.main_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.main_text {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-size: x-large;
+    width: 100%;
+    height: auto;
+    ;
+}
+
+.main_iframe {
+    padding: 25px;
+    width: auto;
+    height: 650px;
+}
+@media screen and (max-width: 1000px){
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main_info {
+        display: flex;
+        flex-flow: column;
+        columns: 2;
+        column-fill: auto;
+        max-height: auto;
+    }
+
+    .main_iframe {
+        width: 100%;
+        height: auto;
+        ;
+    }
+
+    .main_text {
+        font-size: medium;
+    }
+}
