@@ -438,19 +438,52 @@ footer {
 
     }
 
+    .planes_ul {
+        min-width: 200px;
+        height: auto;
+        margin: 0px;
+    }
+
+    .planes_ul-div {
+        min-width: 200px;
+        height: auto;
+        display: flex;
+        justify-self: flex-start;
+        flex-wrap: wrap;
+
+    }
+
     .planes_ul-element {
         display: flex;
+        justify-self: auto;
         flex-wrap: wrap;
-        font-size: 75px;
+        font-size: 40px;
+        margin: 0;
+        padding-right: 0;
+        padding-left: 0;
+        min-width: 200px;
+        height: auto;
+    }
+
+    .planes_ul-element-text {
+        font-size: 25px;
+        margin: 0;
+        padding: 0;
+        min-width: 200px;
+        height: auto;
     }
 
     .calendario_iframe {
-        max-width: 450px;
+        max-width: 700px;
         min-width: 250px;
         height: auto;
     }
 
-    .planes_ul-element-text{
-        font-size: 25px;
+}
+@media screen and (max-width: 671px){
+    .calendario_iframe {
+        width: 250px;
+        height: auto;
     }
+
 }
