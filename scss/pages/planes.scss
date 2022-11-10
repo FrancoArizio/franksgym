@@ -7,26 +7,27 @@
 .planes {
     display: flex;
     width: 50%;
+    
+    &_ul{
+        color: white;
+        &-element {
+            padding: 25px;
+            color: white;
+            font-size: 50px;
+        }
+    }
 }
 
-.planes_ul {
-    color: white;
-}
-
-.planes_ul-element {
-    padding: 25px;
-    color: white;
-    font-size: 50px;
-}
 
 .calendario {
     padding: 25px;
+    &_iframe {
+        height: 850px;
+        width: 600px;
+    }
 }
 
-.calendario_iframe {
-    height: 850px;
-    width: 600px;
-}
+
 @media screen and (max-width: 1000px){
     .planes {
         width: 100%;

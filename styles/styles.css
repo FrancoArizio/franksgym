@@ -56,7 +56,6 @@ header {
   padding-right: 100px;
   font-size: x-large;
 }
-
 .header_list-element:hover {
   transform: scale(120%);
   border-bottom: 2px groove rgb(255, 217, 0);
@@ -219,11 +218,9 @@ footer {
   align-items: center;
   padding-right: 25px;
 }
-
 .info_1-text {
   color: white;
 }
-
 .info_1-image {
   transform: scale(auto);
   height: 400px;
@@ -237,14 +234,12 @@ footer {
   align-items: center;
   padding-right: 25px;
 }
-
 .info_2-image {
   transform: scale(auto);
   height: 400px;
   width: 600px;
   padding: 25px;
 }
-
 .info_2-text {
   color: white;
 }
@@ -292,11 +287,9 @@ footer {
   display: flex;
   width: 50%;
 }
-
 .planes_ul {
   color: white;
 }
-
 .planes_ul-element {
   padding: 25px;
   color: white;
@@ -306,7 +299,6 @@ footer {
 .calendario {
   padding: 25px;
 }
-
 .calendario_iframe {
   height: 850px;
   width: 600px;

@@ -27,13 +27,14 @@ header {
     gap: 50px;
     padding-right: 100px;
     font-size: x-large;
+    &-element:hover {
+        transform: scale(120%);
+        border-bottom: 2px groove rgb(255, 217, 0);
+        transition-duration: 1s;
+    
+    }
 }
-.header_list-element:hover {
-    transform: scale(120%);
-    border-bottom: 2px groove rgb(255, 217, 0);
-    transition-duration: 1s;
 
-}
 @media screen and (max-width: 1000px) {
     .header {
         justify-content: space-evenly;

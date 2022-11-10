@@ -9,17 +9,15 @@
     justify-content: space-around;
     align-items: center;
     padding-right: 25px;
-}
-
-.info_1-text {
-    color: white;
-}
-
-.info_1-image {
-    transform: scale(auto);
-    height: 400px;
-    width: 600px;
-    padding: 25px;
+    &-text {
+        color: white;
+    }
+    &-image {
+        transform: scale(auto);
+        height: 400px;
+        width: 600px;
+        padding: 25px;
+    }
 }
 
 .info_2 {
@@ -27,18 +25,17 @@
     justify-content: space-around;
     align-items: center;
     padding-right: 25px;
+    &-image {
+        transform: scale(auto);
+        height: 400px;
+        width: 600px;
+        padding: 25px;
+    }
+    &-text {
+        color: white;
+    }
 }
 
-.info_2-image {
-    transform: scale(auto);
-    height: 400px;
-    width: 600px;
-    padding: 25px;
-}
-
-.info_2-text {
-    color: white;
-}
 @media screen and (max-width: 1000px){
     .nosotros_main {
         display: flex;
