@@ -180,9 +180,11 @@ footer {
 }
 
 .productos {
-    min-width: 400px;
+    width: 100%;
     margin-top: 35px;
     margin-bottom: 35px;
+    margin-left: 0;
+    margin-right: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -422,5 +424,33 @@ footer {
     .info_2 {
         flex-direction: column-reverse;
         columns: 2;
+    }
+
+    .planes {
+        width: 100%;
+    }
+
+    .pagina_planes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    .planes_ul-element {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 75px;
+    }
+
+    .calendario_iframe {
+        max-width: 450px;
+        min-width: 250px;
+        height: auto;
+    }
+
+    .planes_ul-element-text{
+        font-size: 25px;
     }
 }
