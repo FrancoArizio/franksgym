@@ -180,8 +180,11 @@ footer {
 }
 
 .productos {
+    width: 100%;
     margin-top: 35px;
     margin-bottom: 35px;
+    margin-left: 0;
+    margin-right: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -189,12 +192,10 @@ footer {
 }
 
 .producto_element {
-    margin: 0px;
+    margin: 10px;
     padding: 15px;
-    max-width: 300px;
-    max-height: 400px;
-    min-width: 100px;
-    min-height: 200px;
+    width: 300px;
+    height: 400px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -218,7 +219,6 @@ footer {
 }
 
 .btn_comprar {
-    cursor: pointer;
     color: rgb(255, 187, 0);
     background-color: rgb(0, 0, 0);
     border: solid 2px rgb(255, 187, 0);
@@ -227,7 +227,6 @@ footer {
 }
 
 .btn_comprar:hover {
-    cursor: pointer;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 187, 0);
     border: solid 2px rgb(0, 0, 0);
@@ -426,4 +425,65 @@ footer {
         flex-direction: column-reverse;
         columns: 2;
     }
+
+    .planes {
+        width: 100%;
+    }
+
+    .pagina_planes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    .planes_ul {
+        min-width: 200px;
+        height: auto;
+        margin: 0px;
+    }
+
+    .planes_ul-div {
+        min-width: 200px;
+        height: auto;
+        display: flex;
+        justify-self: flex-start;
+        flex-wrap: wrap;
+
+    }
+
+    .planes_ul-element {
+        display: flex;
+        justify-self: auto;
+        flex-wrap: wrap;
+        font-size: 40px;
+        margin: 0;
+        padding-right: 0;
+        padding-left: 0;
+        min-width: 200px;
+        height: auto;
+    }
+
+    .planes_ul-element-text {
+        font-size: 25px;
+        margin: 0;
+        padding: 0;
+        min-width: 200px;
+        height: auto;
+    }
+
+    .calendario_iframe {
+        max-width: 700px;
+        min-width: 250px;
+        height: auto;
+    }
+
+}
+@media screen and (max-width: 671px){
+    .calendario_iframe {
+        width: 250px;
+        height: auto;
+    }
+
 }
